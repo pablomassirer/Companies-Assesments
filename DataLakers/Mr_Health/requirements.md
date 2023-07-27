@@ -10,6 +10,11 @@
 
 > pip install import_ipynb
 
+> pip install pyarrow
+
+> pip install google-cloud-storage
+
+> pip install google-cloud-bigquery
 #### All dependencies
 
 > pip install -r requirements.txt

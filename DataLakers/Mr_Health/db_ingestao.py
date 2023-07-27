@@ -8,12 +8,17 @@ def connect_db(select=''):
     conn = psycopg2.connect(host="localhost", dbname="mr_health",
                         user="postgres", password="555495") 
     cur = conn.cursor()
-    
-    cur.execute(f"{select}")
-    result = cur.fetchall()
+    if select != '':
+        cur.execute(f"{select}") 
 
+        data = cur.fetchall()
+        colum_names = [desc[0] for desc in cur.description]
+    else:
+        data = []
+        colum_names = []
+        
     cur.close()
-    return result
+    return colum_names, data
 
 def insert(df, filename):
     
@@ -45,6 +50,7 @@ def insert(df, filename):
 
     cur.close()
     conn.close()
+
 
 def execute():
     try:
