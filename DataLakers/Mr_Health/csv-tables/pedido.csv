@@ -1,15 +1,15 @@
-Id_Unidade,Id_Pedido,Tipo_Pedido,Data_Pedido,Vlr_Pedido,Endereco_Entrega,Taxa_Entrega,Status
-1,1,2,2008-09-06 07:26:18.548668,888,"938 Benson Well Suite 102
-Johnbury, GA 83059",16.5,2
-4,2,2,1989-06-13 21:00:54.591852,225,"4044 Thompson Vista Suite 865
-Mooreton, PA 62544",13.75,2
-6,3,1,2022-10-08 13:50:44.475830,77,"13372 Molly Valleys Apt. 500
-East Tabitha, ND 51928",24.75,1
-2,4,2,1990-05-27 06:05:20.726043,122,"341 Fitzpatrick Road
-South Bridget, OR 60662",5.5,2
-5,5,1,1992-01-20 04:56:31.935233,1008,"06362 Angela Lakes Suite 136
-Lindseyton, TN 30587",13.75,1
-3,6,2,2018-06-15 00:02:50.429421,409,"35053 Kathleen Port Suite 585
-Cortezchester, GU 53377",22.0,2
-7,7,1,2018-04-23 15:17:48.888579,111,"4636 Robinson Mountain
-Heiditon, MS 01606",5.5,1
+Id_Unidade;Id_Pedido;Tipo_Pedido;Data_Pedido;Vlr_Pedido;Endereco_Entrega;Taxa_Entrega;Status
+2;1;1;18/08/1997;122;"USNV Green
+FPO AA 02373";11.0;3
+5;2;1;11/12/2002;111;"22773 Bryan Skyway
+Howardtown, NV 40093";2.75;1
+3;3;2;16/09/2000;409;"808 Walsh Highway
+Michaelhaven, IL 57239";19.25;1
+7;4;2;12/10/1990;887;"9031 Coleman Roads
+Johnnystad, GU 34082";22.0;1
+6;5;1;22/06/2008;1008;"7000 Christopher Keys
+South Matthewside, MI 80069";16.5;2
+4;6;2;21/03/2015;225;"1040 Jennings Circle Apt. 690
+Port Noah, MN 14061";2.75;1
+1;7;1;14/06/2000;77;"905 Dakota Roads Suite 721
+Robinsonville, RI 18230";8.25;1
